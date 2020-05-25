@@ -1,0 +1,12 @@
+test-yaml:
+  title: Hello Application YAML
+  message: This is the message
+#spring:
+#  profiles:#    active: "dev"
+jwt:
+  secret: "javainuse"
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/testbenchspring_db"
+    username: "postgres"
+    password: "Delta0530"
